@@ -18,24 +18,3 @@ object Main extends JSApp {
   }
 }
 
-@JSExport
-class ScalaJSTestComponent {
-  @JSName("test")
-  var test: Int = 1
-
-  @JSExport
-  var is: String = "scalajs-test"
-
-  @JSExport
-  def properties = lit(
-    "test" -> lit(
-      "value" -> 10,
-      "type" -> Number
-    )
-  )
-
-  @JSExport
-  def buttonClick() = {
-    js.Dynamic.global.console.log(js.Dynamic.global.test)
-  }
-}
