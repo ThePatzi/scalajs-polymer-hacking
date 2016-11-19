@@ -32,3 +32,4 @@ project/plugins/project/
 /project/target/
 /project/project/
 /webapp/bower_components/
+/webapp/src/scala-js-output.js
