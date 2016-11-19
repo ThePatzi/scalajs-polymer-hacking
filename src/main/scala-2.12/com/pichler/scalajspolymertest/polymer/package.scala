@@ -5,6 +5,8 @@ import org.scalajs.dom.raw.HTMLElement
 import scala.scalajs.js
 import scala.scalajs.js.annotation.{JSName, ScalaJSDefined}
 
+import scala.scalajs.js.Dynamic.{literal => lit}
+
 /**
   * Created by Patrick on 19.11.2016.
   */
@@ -19,7 +21,9 @@ package object polymer {
   abstract class PolymerElement extends PolymerBase {
     def is: String
 
-    def properties: js.Dynamic
+    def properties: js.Dynamic = lit()
+
+    def observers: js.Array[String] = js.Array()
   }
 
   @js.native

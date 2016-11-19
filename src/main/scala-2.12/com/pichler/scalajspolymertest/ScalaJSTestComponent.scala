@@ -25,8 +25,15 @@ class ScalaJSTestComponent extends PolymerElement {
     )
   )
 
+  override def observers = js.Array(
+    "valueObserver(test)"
+  )
+
+  def valueObserver(test: Int): Unit = {
+    println(test)
+  }
+
   def buttonClick() = {
     this.test += 10
-    js.Dynamic.global.console.log(this.test)
   }
 }
