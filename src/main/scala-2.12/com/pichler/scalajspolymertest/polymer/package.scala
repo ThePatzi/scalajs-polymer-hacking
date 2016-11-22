@@ -10,10 +10,9 @@ import scala.scalajs.js.annotation.{JSName, ScalaJSDefined}
   * Created by Patrick on 19.11.2016.
   */
 package object polymer {
-
   @js.native
   object Polymer extends js.Object {
-    def apply(prototype: Dynamic): js.Dynamic = js.native
+    def apply(prototype: js.Any): js.Dynamic = js.native
   }
 
   @ScalaJSDefined
