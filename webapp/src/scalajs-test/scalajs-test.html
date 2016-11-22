@@ -1,11 +1,15 @@
+<link rel="import" href="../../bower_components/iron-validator-behavior/iron-validator-behavior.html">
+
 <dom-module id="scalajs-test">
   <template>
     <div>{{test}}</div>
     <div>asdf</div>
     
+    <div>{{testObject.name}}</div>
+    
     <button on-tap="buttonClick">Test button</button>
   </template>
   <script>
-    Polymer(com.pichler.scalajspolymertest.ScalaJSTestComponent)
+      Polymer(com.pichler.scalajspolymertest.components.ScalaJSTestComponent)
   </script>
 </dom-module>

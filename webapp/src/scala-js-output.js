@@ -2866,15 +2866,49 @@ var $d_sjs_js_JavaScriptException = new $TypeData().initClass({
   s_Serializable: 1
 });
 $c_sjs_js_JavaScriptException.prototype.$classData = $d_sjs_js_JavaScriptException;
+function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__detached__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V($this) {
+  /*<skip>*/
+}
+function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__ready__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V($this) {
+  /*<skip>*/
+}
+function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__beforeRegister__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V($this) {
+  /*<skip>*/
+}
+function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__attributeChanged__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__T__T__V($this, aName, aType) {
+  /*<skip>*/
+}
+function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__created__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V($this) {
+  /*<skip>*/
+}
+function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__attached__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V($this) {
+  /*<skip>*/
+}
 function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__properties__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__sjs_js_Dynamic($this) {
   return {}
+}
+function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__behaviors__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__sjs_js_Array($this) {
+  return []
+}
+function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__is__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__T($this) {
+  return $as_T($this.$$undis$7)
 }
 function $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__observers__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__sjs_js_Array($this) {
   return []
 }
 /** @constructor */
-function $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement() {
-  $g.Polymer.Base.call(this)
+function $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement(arg$1) {
+  var _is = $as_T(arg$1);
+  $g.Polymer.Base.call(this);
+  $g.Object.defineProperties(this, {
+    $$undis$7: {
+      "configurable": true,
+      "enumerable": true,
+      "writable": true,
+      "value": null
+    }
+  });
+  this.$$undis$7 = _is
 }
 /** @constructor */
 function $h_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement() {
@@ -2883,6 +2917,12 @@ function $h_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement() {
 $h_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype = $g.Polymer.Base.prototype;
 $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype = new $h_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement();
 $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype.constructor = $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement;
+Object.defineProperty($c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype, "is", {
+  "get": (function() {
+    return $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__is__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__T(this)
+  }),
+  "enumerable": true
+});
 Object.defineProperty($c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype, "properties", {
   "get": (function() {
     return $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__properties__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__sjs_js_Dynamic(this)
@@ -2895,34 +2935,64 @@ Object.defineProperty($c_Lcom_pichler_scalajspolymertest_polymer_package$Polymer
   }),
   "enumerable": true
 });
-function $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__observers__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__sjs_js_Array($this) {
+Object.defineProperty($c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype, "behaviors", {
+  "get": (function() {
+    return $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__behaviors__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__sjs_js_Array(this)
+  }),
+  "enumerable": true
+});
+$c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype.beforeRegister = (function() {
+  $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__beforeRegister__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V(this)
+});
+$c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype.created = (function() {
+  $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__created__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V(this)
+});
+$c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype.ready = (function() {
+  $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__ready__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V(this)
+});
+$c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype.attached = (function() {
+  $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__attached__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V(this)
+});
+$c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype.detached = (function() {
+  $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__detached__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__V(this)
+});
+$c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype.attributeChanged = (function(arg$1, arg$2) {
+  var prep0 = $as_T(arg$1);
+  var prep1 = $as_T(arg$2);
+  $s_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__attributeChanged__Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement__T__T__V(this, prep0, prep1)
+});
+function $s_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__buttonClick__Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__V($this) {
+  $this.test = ((10 + $uI($this.test)) | 0)
+}
+function $s_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__valueObserver__Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__I__V($this, test) {
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((test + "\n"))
+}
+function $s_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__observers__Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__sjs_js_Array($this) {
   return ["valueObserver(test)"]
 }
-function $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__properties__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__sjs_js_Object($this) {
+function $s_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__properties__Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__sjs_js_Object($this) {
   return {
     "test": {
-      "value": ($m_sjs_js_Any$(), 10),
-      "type": $g.Number
+      "type": $g.Number,
+      "value": ($m_sjs_js_Any$(), 10)
+    },
+    "testObject": {
+      "type": $g.Object,
+      "value": (function(this$2) {
+        return (function() {
+          return {
+            "name": ($m_sjs_js_Any$(), "Sepp Forcher")
+          }
+        })
+      })($this)
     }
   }
 }
-function $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__buttonClick__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__V($this) {
-  $this.test = ((10 + $uI($this.test)) | 0)
-}
-function $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__is__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__T($this) {
-  return "scalajs-test"
-}
-function $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__valueObserver__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__I__V($this, test) {
-  var this$2 = $m_s_Console$();
-  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
-  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V("obsevers rock!\n");
-  var this$5 = $m_s_Console$();
-  var this$6 = $as_Ljava_io_PrintStream(this$5.outVar$2.v$1);
-  this$6.java$lang$JSConsoleBasedPrintStream$$printString__T__V((test + "\n"))
-}
 /** @constructor */
-function $c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent() {
-  $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.call(this);
+function $c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent() {
+  $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.call(this, "scalajs-test");
   $g.Object.defineProperties(this, {
     "test": {
       "configurable": true,
@@ -2934,40 +3004,79 @@ function $c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent() {
   this.test = 1
 }
 /** @constructor */
-function $h_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent() {
+function $h_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent() {
   /*<skip>*/
 }
-$h_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent.prototype = $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype;
-$c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent.prototype = new $h_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent();
-$c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent.prototype.constructor = $c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent;
-Object.defineProperty($c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent.prototype, "is", {
+$h_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent.prototype = $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype;
+$c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent.prototype = new $h_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent();
+$c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent.prototype.constructor = $c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent;
+Object.defineProperty($c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent.prototype, "properties", {
   "get": (function() {
-    return $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__is__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__T(this)
+    return $s_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__properties__Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__sjs_js_Object(this)
   }),
   "enumerable": true
 });
-Object.defineProperty($c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent.prototype, "properties", {
+Object.defineProperty($c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent.prototype, "observers", {
   "get": (function() {
-    return $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__properties__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__sjs_js_Object(this)
+    return $s_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__observers__Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__sjs_js_Array(this)
   }),
   "enumerable": true
 });
-Object.defineProperty($c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent.prototype, "observers", {
-  "get": (function() {
-    return $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__observers__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__sjs_js_Array(this)
-  }),
-  "enumerable": true
-});
-$c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent.prototype.valueObserver = (function(arg$1) {
+$c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent.prototype.valueObserver = (function(arg$1) {
   var prep0 = $uI(arg$1);
-  $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__valueObserver__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__I__V(this, prep0)
+  $s_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__valueObserver__Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__I__V(this, prep0)
 });
-$c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent.prototype.buttonClick = (function() {
-  $s_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__buttonClick__Lcom_pichler_scalajspolymertest_ScalaJSTestComponent__V(this)
+$c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent.prototype.buttonClick = (function() {
+  $s_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__buttonClick__Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent__V(this)
 });
 $e.com = ($e.com || {});
 $e.com.pichler = ($e.com.pichler || {});
 $e.com.pichler.scalajspolymertest = ($e.com.pichler.scalajspolymertest || {});
-$e.com.pichler.scalajspolymertest.ScalaJSTestComponent = $c_Lcom_pichler_scalajspolymertest_ScalaJSTestComponent;
+$e.com.pichler.scalajspolymertest.components = ($e.com.pichler.scalajspolymertest.components || {});
+$e.com.pichler.scalajspolymertest.components.ScalaJSTestComponent = $c_Lcom_pichler_scalajspolymertest_components_ScalaJSTestComponent;
+function $s_Lcom_pichler_scalajspolymertest_components_CatValidator__validate__Lcom_pichler_scalajspolymertest_components_CatValidator__T__Z($this, values) {
+  var this$2 = $m_s_Console$();
+  var this$3 = $as_Ljava_io_PrintStream(this$2.outVar$2.v$1);
+  this$3.java$lang$JSConsoleBasedPrintStream$$printString__T__V((values + "\n"));
+  return false
+}
+function $s_Lcom_pichler_scalajspolymertest_components_CatValidator__behaviors__Lcom_pichler_scalajspolymertest_components_CatValidator__sjs_js_Array($this) {
+  return [$g.Polymer.IronValidatorBehavior]
+}
+function $s_Lcom_pichler_scalajspolymertest_components_CatValidator__properties__Lcom_pichler_scalajspolymertest_components_CatValidator__sjs_js_Dynamic($this) {
+  return {}
+}
+/** @constructor */
+function $c_Lcom_pichler_scalajspolymertest_components_CatValidator() {
+  $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.call(this, "cat-validator")
+}
+/** @constructor */
+function $h_Lcom_pichler_scalajspolymertest_components_CatValidator() {
+  /*<skip>*/
+}
+$h_Lcom_pichler_scalajspolymertest_components_CatValidator.prototype = $c_Lcom_pichler_scalajspolymertest_polymer_package$PolymerElement.prototype;
+$c_Lcom_pichler_scalajspolymertest_components_CatValidator.prototype = new $h_Lcom_pichler_scalajspolymertest_components_CatValidator();
+$c_Lcom_pichler_scalajspolymertest_components_CatValidator.prototype.constructor = $c_Lcom_pichler_scalajspolymertest_components_CatValidator;
+Object.defineProperty($c_Lcom_pichler_scalajspolymertest_components_CatValidator.prototype, "properties", {
+  "get": (function() {
+    return $s_Lcom_pichler_scalajspolymertest_components_CatValidator__properties__Lcom_pichler_scalajspolymertest_components_CatValidator__sjs_js_Dynamic(this)
+  }),
+  "enumerable": true
+});
+Object.defineProperty($c_Lcom_pichler_scalajspolymertest_components_CatValidator.prototype, "behaviors", {
+  "get": (function() {
+    return $s_Lcom_pichler_scalajspolymertest_components_CatValidator__behaviors__Lcom_pichler_scalajspolymertest_components_CatValidator__sjs_js_Array(this)
+  }),
+  "enumerable": true
+});
+$c_Lcom_pichler_scalajspolymertest_components_CatValidator.prototype.validate = (function(arg$1) {
+  var prep0 = $as_T(arg$1);
+  return $s_Lcom_pichler_scalajspolymertest_components_CatValidator__validate__Lcom_pichler_scalajspolymertest_components_CatValidator__T__Z(this, prep0)
+});
+$e.com = ($e.com || {});
+$e.com.pichler = ($e.com.pichler || {});
+$e.com.pichler.scalajspolymertest = ($e.com.pichler.scalajspolymertest || {});
+$e.com.pichler.scalajspolymertest.components = ($e.com.pichler.scalajspolymertest.components || {});
+$e.com.pichler.scalajspolymertest.components.CatValidator = $c_Lcom_pichler_scalajspolymertest_components_CatValidator;
 }).call(this);
 //# sourceMappingURL=scalajs-polymertest-fastopt.js.map

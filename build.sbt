@@ -1,3 +1,4 @@
+import org.scalajs.core.tools.linker.backend.OutputMode.ECMAScript6
 import sbt.Keys._
 import sbt._
 

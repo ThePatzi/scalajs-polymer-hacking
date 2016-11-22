@@ -1,11 +1,11 @@
-package com.pichler.scalajspolymertest
+package com.pichler.scalajspolymertest.components
 
 import com.pichler.scalajspolymertest.polymer._
 
-import scala.scalajs.js.{Dictionary, JSApp}
 import scala.scalajs._
-import scala.scalajs.js.annotation.{JSExport, JSGlobalScope, JSName, ScalaJSDefined}
+import scala.scalajs.js.Array
 import scala.scalajs.js.Dynamic.{literal => lit}
+import scala.scalajs.js.annotation.{JSExport, ScalaJSDefined}
 
 
 /**
@@ -13,15 +13,22 @@ import scala.scalajs.js.Dynamic.{literal => lit}
   */
 @ScalaJSDefined
 @JSExport
-class ScalaJSTestComponent extends PolymerElement {
+class ScalaJSTestComponent extends PolymerElement("scalajs-test") {
   var test: Int = 1
-
-  override def is: String = "scalajs-test"
 
   override def properties = lit(
     "test" -> lit(
-      "value" -> 10,
-      "type" -> Number
+      "type" -> types.Number,
+      "value" -> 10
+    ),
+
+    "testObject" -> lit(
+      "type" -> types.Object,
+      "value" -> {
+        () => lit(
+          "name" -> "Sepp Forcher"
+        )
+      }
     )
   )
 

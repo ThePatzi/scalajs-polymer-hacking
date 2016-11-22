@@ -1,18 +1,26 @@
 <!doctype html>
 <html>
   <head>
-    <title>WosHobIHeitGsoffen</title>
+    <title>ScalaJS</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="bower_components/webcomponentsjs/webcomponents-lite.js"></script>
     <link rel="import" href="bower_components/polymer/polymer.html">
     
+    <link rel="import" href="bower_components/paper-input/paper-input.html">
+    
     <link rel="import" href="/src/import.html">
     <link rel="import" href="/src/scalajs-test/scalajs-test.html">
     <link rel="import" href="/src/polymer-test/polymer-test.html">
+    <link rel="import" href="/src/cat-validator/cat-validator.html">
   </head>
   <body>
     <scalajs-test></scalajs-test>
     <polymer-test></polymer-test>
+    
+    <cat-validator></cat-validator>
+    
+    <paper-input validator="cat-validator" auto-validate>
+    </paper-input>
   </body>
 </html>
